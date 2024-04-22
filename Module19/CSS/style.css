@@ -1,0 +1,390 @@
+h1{
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 42px;
+      }
+
+h2{
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 32px;
+        text-align: center;
+}
+
+
+h3{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+h4{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.mainP{
+    font-size: 24px;
+    display: block;
+    text-align: left;
+    color: white;
+    
+    
+}
+
+
+
+#description{
+    color: white;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    margin: 0 0 0 20px;
+    
+}
+.topnav {
+    display: grid;
+    /* justify-content: center; */
+    align-items: center;
+    grid-template-columns: 1fr 10fr;
+}
+nav .headerStyle{
+    /* width: 100%; */
+    display: grid;
+    justify-content: center;
+  
+    
+    
+}
+
+.space {
+    /* width: 20%; */
+
+
+}
+
+nav{
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    padding: 20px;
+    /* width: 60%; */
+    
+
+
+  
+}
+
+.hidden {
+  display: none;
+}
+ /* unvisited link */
+ nav a {
+    color: black;
+}
+
+ /* unvisited link */
+    
+nav a:link {
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+ 
+  /* mouse over link */
+/* nav a:hover { */
+    /* color: #19bcdf; */
+  /* } */
+
+ul{
+    display: inline-block;
+
+}
+
+li{
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+}
+
+.background{
+    background: linear-gradient(to bottom right, #125466, #63BBD3);
+    
+}
+
+.column-image {
+    width: 100%;
+}
+#homepic{
+    /* margin-left: 10%; */
+    /* margin-top: 2%; */
+    width: 90%;
+    display: block;
+    margin: 2% auto;
+}
+
+* {
+    box-sizing: border-box;
+  }
+    
+  
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px 20px;
+    
+
+    
+  }
+  
+  .rowBackground {
+    background: linear-gradient(to bottom right, #125466, #63BBD3);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .rowBackground:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#column2{
+    padding-bottom: 10%;
+}
+  
+#name{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    padding-top: 200px;
+}
+
+.titles{
+    color: white;
+    vertical-align: 400px;
+    text-align: center;
+    display: flex;
+    
+    
+}
+
+/* .midSection*/
+.midSection {
+    padding-bottom: 10%;
+    /* margin-left: 15%; */
+    
+
+}   
+
+.midText {
+    text-align: center;
+}
+
+.gallerySection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+
+
+
+}
+
+div.gallery {
+    /* margin: 100px; */
+    /* float: left; */
+    /* width: 180px; */
+    margin: 10px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #19bcdf;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: "Open Sans";
+  }
+
+
+/* end.midSection*/
+
+
+
+
+/* .bottomSection*/
+
+
+
+.h2Text {
+    padding-bottom: 10%;
+}
+
+.paddingBottom {
+    padding: 2% 30% 2% 30%;
+
+}
+
+
+.bottomSection{
+    text-align: center;
+}
+.bottomBackground{
+    background-color: #0B6379;
+    color: white;
+}
+
+.circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #549940;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+
+
+.copyRight{
+    text-align: center;
+}
+
+
+
+/* caseStudy1 */
+
+
+
+
+
+
+
+
+@media screen and (max-width: 560px) {
+  
+    .gallerySection {
+        grid-template-columns: 1fr;
+    
+    }
+    .rowBackground {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+  }
+  @media (min-width: 30px) and (max-width: 560px) {
+    .gallerySection {
+        grid-template-columns: 1fr;
+    
+    }
+    .rowBackground {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      #name {
+        display: grid;
+        justify-content: center;
+        margin-top: -130px;
+        
+       
+      }
+
+      #description {
+        display: grid;
+        justify-content: center;
+
+        
+      }
+      
+      .mainP {
+        display: grid;
+        justify-content: center;
+      }
+
+      .headerStyle {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    
+
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #ddd;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    color: white;
+  }
+
+  .bottomNav {
+    display: flex;
+    justify-items: center;
+    margin-right: 40px;
+  }
+
+  .logo{
+    margin-top: 20px;
+  }
+  }
